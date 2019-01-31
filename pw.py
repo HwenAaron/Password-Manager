@@ -28,10 +28,6 @@ if input in PASSWORDS:
 else:
 	print("FAILED: There is no account named "+ input)
 
-# Print all name of accounts
-if input == "-h":
-	for i in PASSWORDS:
-		print(i)
 
 
 
